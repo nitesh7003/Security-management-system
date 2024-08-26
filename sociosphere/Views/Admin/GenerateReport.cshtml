@@ -1,0 +1,34 @@
+﻿@model sociosphere.Models.ReportViewModel
+
+@{
+    ViewData["Title"] = "Generate Report";
+}
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Report</h5>
+            <form asp-action="GenerateReport" method="post">
+                <div class="form-row align-items-center d-flex">
+                    <div class="col-md-3">
+                        <label for="ReportFor">Report For</label>
+                        <select class="form-control" asp-for="ReportFor" asp-items="ViewBag.ReportTypes">
+                            <option value="">Select</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="StartDate">Start Date</label>
+                        <input type="date" class="form-control" asp-for="StartDate" placeholder="dd-mm-yyyy">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="EndDate">End Date</label>
+                        <input type="date" class="form-control" asp-for="EndDate" placeholder="dd-mm-yyyy">
+                    </div>
+                    <div class="col-md-3 d-flex align-items-start mt-4">
+                        <button type="submit" class="btn btn-primary">Generate Report</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

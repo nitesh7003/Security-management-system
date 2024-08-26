@@ -1,0 +1,197 @@
+﻿@model sociosphere.Models.alloteflat
+
+<h2>Allot Flat</h2>
+
+<form asp-action="AlloteFlat" method="post">
+    <div class="form-group">
+        <label asp-for="name">Name</label>
+        <select asp-for="name" class="form-control" asp-items="ViewBag.UserNames"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="wingname">Wing Name</label>
+        <select asp-for="wingname" class="form-control" asp-items="ViewBag.WingNames" id="wingNameDropdown"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="floorno">Floor Number</label>
+        <select asp-for="floorno" class="form-control" id="floorNoDropdown"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="flatno">Flat Number</label>
+        <select asp-for="flatno" class="form-control" id="flatNoDropdown"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="flattype">Flat Type</label>
+        <input asp-for="flattype" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="moveindate">Move-in Date</label>
+        <input asp-for="moveindate" class="form-control" type="date" />
+    </div>
+
+   @*  <div class="form-group">
+        <label asp-for="allotdate">Allot Date</label>
+        <input asp-for="allotdate" class="form-control" type="date" />
+    </div> *@
+
+    <button type="submit" class="btn btn-primary">Allot Flat</button>
+</form>
+
+@* @section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#wingNameDropdown').change(function () {
+                var wingName = $(this).val();
+                loadFloorNumbers(wingName);
+            });
+
+            $('#floorNoDropdown').change(function () {
+                var wingName = $('#wingNameDropdown').val();
+                var floorNo = $(this).val();
+                loadFlatNumbers(wingName, floorNo);
+            });
+
+            function loadFloorNumbers(wingName) {
+                $.getJSON('/Admin/GetFloorNumbers', { wingName: wingName }, function (data) {
+                    var dropdown = $('#floorNoDropdown');
+                    dropdown.empty();
+                    $.each(data, function (index, item) {
+                        dropdown.append($('<option></option>').val(item).text(item));
+                    });
+                });
+            }
+
+            function loadFlatNumbers(wingName, floorNo) {
+                $.getJSON('/Admin/GetFlatNumbers', { wingName: wingName, floorNo: floorNo }, function (data) {
+                    var dropdown = $('#flatNoDropdown');
+                    dropdown.empty();
+                    $.each(data, function (index, item) {
+                        dropdown.append($('<option></option>').val(item.flatno).text(item.flatno));
+                        $('#flattype').val(item.flattype);
+                    });
+                });
+            }
+        });
+    </script> *@
+
+@* @section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#wingNameDropdown').change(function () {
+                var wingName = $(this).val();
+                loadFloorNumbers(wingName);
+            });
+
+            $('#floorNoDropdown').change(function () {
+                var wingName = $('#wingNameDropdown').val();
+                var floorNo = $(this).val();
+                loadFlatNumbers(wingName, floorNo);
+            });
+
+            $('#flatNoDropdown').change(function () {
+                var flatNo = $(this).val();
+                var wingName = $('#wingNameDropdown').val();
+                loadFlatType(wingName, flatNo);
+            });
+
+            function loadFloorNumbers(wingName) {
+                $.getJSON('/Admin/GetFloorNumbers', { wingName: wingName }, function (data) {
+                    var dropdown = $('#floorNoDropdown');
+                    dropdown.empty();
+                    dropdown.append('<option value="">Select Floor</option>'); //// 
+                    $.each(data, function (index, item) {
+                        dropdown.append($('<option></option>').val(item).text(item));
+                    });
+                });
+            }
+
+            function loadFlatNumbers(wingName, floorNo) {
+                $.getJSON('/Admin/GetFlatNumbers', { wingName: wingName, floorNo: floorNo }, function (data) {
+                    var dropdown = $('#flatNoDropdown');
+                    dropdown.empty();
+                    dropdown.append('<option value="">Select Flat Number</option>');
+                    $.each(data, function (index, item) {
+                        dropdown.append($('<option></option>').val(item.flatno).text(item.flatno));
+                    });
+                });
+            }
+
+            function loadFlatType(wingName, flatNo) {
+                $.getJSON('/Admin/GetFlatType', { wingName: wingName, flatNo: flatNo }, function (data) {
+                    $('#flattype').val(data.flattype);
+                });
+            }
+        });
+    </script> *@
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Add "Select Wing" option initially
+            $('#wingNameDropdown').prepend('<option value="" selected>Select Wing</option>');
+
+            $('#wingNameDropdown').change(function () {
+                var wingName = $(this).val();
+                if (wingName) {
+                    loadFloorNumbers(wingName);
+                } else {
+                    // Clear the other dropdowns if no wing is selected
+                    $('#floorNoDropdown').empty().append('<option value="">Select Floor</option>');
+                    $('#flatNoDropdown').empty().append('<option value="">Select Flat Number</option>');
+                    $('#flattype').val('');
+                }
+            });
+
+            $('#floorNoDropdown').change(function () {
+                var wingName = $('#wingNameDropdown').val();
+                var floorNo = $(this).val();
+                if (wingName && floorNo) {
+                    loadFlatNumbers(wingName, floorNo);
+                }
+            });
+
+            $('#flatNoDropdown').change(function () {
+                var flatNo = $(this).val();
+                var wingName = $('#wingNameDropdown').val();
+                if (wingName && flatNo) {
+                    loadFlatType(wingName, flatNo);
+                }
+            });
+
+            function loadFloorNumbers(wingName) {
+                $.getJSON('/Admin/GetFloorNumbers', { wingName: wingName }, function (data) {
+                    var dropdown = $('#floorNoDropdown');
+                    dropdown.empty();
+                    dropdown.append('<option value="">Select Floor</option>');
+                    $.each(data, function (index, item) {
+                        dropdown.append($('<option></option>').val(item).text(item));
+                    });
+                });
+            }
+
+            function loadFlatNumbers(wingName, floorNo) {
+                $.getJSON('/Admin/GetFlatNumbers', { wingName: wingName, floorNo: floorNo }, function (data) {
+                    var dropdown = $('#flatNoDropdown');
+                    dropdown.empty();
+                    dropdown.append('<option value="">Select Flat Number</option>');
+                    $.each(data, function (index, item) {
+                        dropdown.append($('<option></option>').val(item.flatno).text(item.flatno));
+                    });
+                });
+            }
+
+            function loadFlatType(wingName, flatNo) {
+                $.getJSON('/Admin/GetFlatType', { wingName: wingName, flatNo: flatNo }, function (data) {
+                    $('#flattype').val(data.flattype);
+                });
+            }
+        });
+    </script>
+}
+
+
+

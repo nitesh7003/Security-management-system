@@ -1,0 +1,63 @@
+﻿@model sociosphere.Models.billmanagement
+
+@{
+    ViewData["Title"] = "Add Bill";
+}
+
+<h2>Add Bill</h2>
+
+<form asp-action="AddBill" method="post">
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="WingName">Wing Name</label>
+        <select id="WingName" asp-for="WingName" class="form-control" asp-items="ViewBag.WingNames" onchange="getFlats()">
+            <option value="select wing">Select Wing</option>
+        </select>
+        <span asp-validation-for="WingName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="FlatNo">Flat No</label>
+        <select id="FlatNo" asp-for="FlatNo" class="form-control" asp-items="ViewBag.FlatNos">
+            <option value="select flatno">Select FlatNo</option>
+        </select>
+        <span asp-validation-for="FlatNo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AmountPay"></label>
+        <input asp-for="AmountPay" class="form-control" />
+        <span asp-validation-for="AmountPay" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Month"></label>
+        <input asp-for="Month" class="form-control" />
+        <span asp-validation-for="Month" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Bill</button>
+</form>
+
+@section Scripts {
+    <script type="text/javascript">
+        function getFlats() {
+            var wingName = $("#WingName").val();
+            $.getJSON('/Admin/GetFlatsByWing', { wingName: wingName }, function (data) {
+                var flatNoDropdown = $("#FlatNo");
+                flatNoDropdown.empty();
+                $.each(data, function (index, item) {
+                    flatNoDropdown.append($('<option/>', {
+                        value: item.value,
+                        text: item.text
+                    }));
+                });
+            });
+        }
+    </script>
+}

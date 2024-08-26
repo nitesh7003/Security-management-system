@@ -1,0 +1,42 @@
+﻿@model IEnumerable<sociosphere.Models.gatemanagement>
+
+@{
+    ViewData["Title"] = "Report Results - Visitors";
+}
+
+<div class="container mt-4">
+    <h5 class="mb-4">Visitor Report Results</h5>
+
+    <form asp-action="ExportReportToCSV" method="post">
+        <input type="hidden" name="reportType" value="Visitor" />
+        <button type="submit" class="btn btn-secondary mb-3">Export to CSV</button>
+    </form>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Visitor Name</th>
+                <th>Flat Number</th>
+                <th>Wing Name</th>
+                <th>Phone</th>
+                <th>In DateTime</th>
+                <th>Out DateTime</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var visitor in Model)
+            {
+                <tr>
+                    <td>@visitor.VisitorName</td>
+                    <td>@visitor.FlatNo</td>
+                    <td>@visitor.WingName</td>
+                    <td>@visitor.Phone</td>
+                    <td>@visitor.InDateTime.ToString("dd-MM-yyyy HH:mm")</td>
+                    <td>@visitor.OutDateTime?.ToString("dd-MM-yyyy HH:mm")</td>
+                    <td>@visitor.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

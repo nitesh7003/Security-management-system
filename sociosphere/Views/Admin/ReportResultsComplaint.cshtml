@@ -1,0 +1,40 @@
+﻿@model IEnumerable<sociosphere.Models.addcomplaint>
+
+@{
+    ViewData["Title"] = "Report Results - Complaints";
+}
+
+<div class="container mt-4">
+    <h5 class="mb-4">Complaint Report Results</h5>
+
+    <form asp-action="ExportReportToCSV" method="post">
+        <input type="hidden" name="reportType" value="Complaint" />
+        <button type="submit" class="btn btn-secondary mb-3">Export to CSV</button>
+    </form>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Flat Number</th>
+                <th>Complaint</th>
+                <th>Status</th>
+                <th>Raised Date</th>
+                <th>Resolved Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var complaint in Model)
+            {
+                <tr>
+                    <td>@complaint.name</td>
+                    <td>@complaint.flatno</td>
+                    <td>@complaint.WriteComplaint</td>
+                    <td>@complaint.complaintstatus</td>
+                    <td>@complaint.raisedate.ToString("dd-MM-yyyy")</td>
+                    <td>@complaint.resolvedate?.ToString("dd-MM-yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

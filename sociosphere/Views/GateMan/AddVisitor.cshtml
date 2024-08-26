@@ -1,0 +1,74 @@
+﻿@model sociosphere.Models.gatemanagement
+
+@{
+    ViewData["Title"] = "Add Visitor";
+}
+
+<h2>Add Visitor</h2>
+
+<form asp-action="AddVisitor" method="post">
+    <div class="form-group">
+        <label for="WingName">Wing Name</label>
+        <select asp-for="WingName" class="form-control" id="WingName">
+            <option value="">Select Wing</option>
+            @foreach (var wing in ViewBag.WingNames)
+            {
+                <option value="@wing">@wing</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="FlatNo">Flat Number</label>
+        <select asp-for="FlatNo" class="form-control" id="FlatNo">
+            <option value="">Select Flat</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="VisitorName">Visitor Name</label>
+        <input asp-for="VisitorName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="Phone">Phone</label>
+        <input asp-for="Phone" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="Address">Address</label>
+        <input asp-for="Address" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="Name">Person to Meet</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="Reason">Reason</label>
+        <input asp-for="Reason" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Add Visitor" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#WingName').change(function () {
+                var wingName = $(this).val();
+                $.getJSON('@Url.Action("GetFlatsByWing", "GateMan")', { wingName: wingName }, function (data) {
+                    var flatDropdown = $('#FlatNo');
+                    flatDropdown.empty();
+                    flatDropdown.append('<option value="">Select Flat</option>');
+                    $.each(data, function (i, flat) {
+                        flatDropdown.append('<option value="' + flat + '">' + flat + '</option>');
+                    });
+                });
+            });
+        });
+    </script>
+}

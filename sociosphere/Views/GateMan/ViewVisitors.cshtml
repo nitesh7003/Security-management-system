@@ -1,0 +1,49 @@
+﻿@model IEnumerable<sociosphere.Models.gatemanagement>
+
+@{
+    ViewData["Title"] = "Manage Visitors";
+}
+
+<h2>Manage Visitors</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Visitor Name</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Reason</th>
+            <th>In Date Time</th>
+            <th>Out Date Time</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var visitor in Model)
+        {
+            <tr>
+                <td>@visitor.VisitorName</td>
+                <td>@visitor.Phone</td>
+                <td>@visitor.Address</td>
+                <td>@visitor.Reason</td>
+                <td>@visitor.InDateTime</td>
+                <td>@visitor.OutDateTime</td>
+                <td>@visitor.Status</td>
+                <td>
+                    @if (visitor.Status == "In")
+                    {
+                        <form method="post" asp-action="MarkAsOut" asp-controller="GateMan">
+                            <input type="hidden" name="id" value="@visitor.Id" />
+                            <button type="submit" class="btn btn-danger">Out</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <span>Out</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

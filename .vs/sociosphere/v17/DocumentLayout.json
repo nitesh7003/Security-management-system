@@ -1,0 +1,669 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Migrations\\20240826164010_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sociosphere\\Migrations\\20240826164010_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Migrations\\20240826163938_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sociosphere\\Migrations\\20240826163938_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\admin\\generatereport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\admin\\generatereport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\models\\billmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\models\\billmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\admin\\reportresultsvisitor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\admin\\reportresultsvisitor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\models\\reportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\models\\reportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\models\\gatemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\models\\gatemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\models\\addcomplaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\models\\addcomplaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\user\\paymentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\user\\paymentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\user\\viewbills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\user\\viewbills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\models\\userreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\models\\userreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\controllers\\userregcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\controllers\\userregcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\userreg\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\userreg\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\userreg\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\userreg\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\admin\\reportgenerate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\admin\\reportgenerate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\admin\\addbill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\admin\\addbill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\user\\addcomplaint.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\user\\addcomplaint.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\models\\configurationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\models\\configurationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\models\\alloteflat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\models\\alloteflat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\models\\userregphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\models\\userregphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\controllers\\gatemancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\controllers\\gatemancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\admin\\viewannouncements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\admin\\viewannouncements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\admin\\alloteflat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\admin\\alloteflat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\gateman\\addvisitor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\gateman\\addvisitor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\gateman\\viewvisitors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\gateman\\viewvisitors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\user\\viewvisitors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\user\\viewvisitors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\user\\viewannouncements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\user\\viewannouncements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\admin\\addannouncement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\admin\\addannouncement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\models\\announcementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\models\\announcementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\admin\\viewcomplaints.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\admin\\viewcomplaints.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\models\\addflat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\models\\addflat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|c:\\users\\nitesh yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\views\\admin\\addflat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8B34520-7A74-474B-9163-E06732D03139}|sociosphere\\sociosphere.csproj|solutionrelative:sociosphere\\views\\admin\\addflat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 838,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240826164010_m1.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Migrations\\20240826164010_m1.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Migrations\\20240826164010_m1.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Migrations\\20240826164010_m1.cs",
+              "RelativeToolTip": "sociosphere\\Migrations\\20240826164010_m1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:40:10.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240826163938_m1.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Migrations\\20240826163938_m1.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Migrations\\20240826163938_m1.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Migrations\\20240826163938_m1.cs",
+              "RelativeToolTip": "sociosphere\\Migrations\\20240826163938_m1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:39:39.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T16:38:02.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenerateReport.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\GenerateReport.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\Admin\\GenerateReport.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\GenerateReport.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\Admin\\GenerateReport.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T12:28:27.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\appsettings.json",
+              "RelativeDocumentMoniker": "sociosphere\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\appsettings.json",
+              "RelativeToolTip": "sociosphere\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAACWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-24T13:07:11.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "billmanagement.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\billmanagement.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Models\\billmanagement.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\billmanagement.cs",
+              "RelativeToolTip": "sociosphere\\Models\\billmanagement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:22:30.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "sociosphere\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAowNUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T07:33:51.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAADYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-25T14:48:45.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Program.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Program.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Program.cs",
+              "RelativeToolTip": "sociosphere\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T18:42:58.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaymentPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\User\\PaymentPage.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\User\\PaymentPage.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\User\\PaymentPage.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\User\\PaymentPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T10:41:25.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReportViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\ReportViewModel.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Models\\ReportViewModel.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\ReportViewModel.cs",
+              "RelativeToolTip": "sociosphere\\Models\\ReportViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T12:23:01.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReportResultsVisitor.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\ReportResultsVisitor.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\Admin\\ReportResultsVisitor.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\ReportResultsVisitor.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\Admin\\ReportResultsVisitor.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T12:32:29.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Controllers\\UserController.cs",
+              "RelativeToolTip": "sociosphere\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAwwJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T14:48:30.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "addcomplaint.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\addcomplaint.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Models\\addcomplaint.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\addcomplaint.cs",
+              "RelativeToolTip": "sociosphere\\Models\\addcomplaint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T18:12:06.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "gatemanagement.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\gatemanagement.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Models\\gatemanagement.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\gatemanagement.cs",
+              "RelativeToolTip": "sociosphere\\Models\\gatemanagement.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T20:55:51.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ViewBills.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\User\\ViewBills.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\User\\ViewBills.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\User\\ViewBills.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\User\\ViewBills.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-25T14:47:01.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "userreg.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\userreg.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Models\\userreg.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\userreg.cs",
+              "RelativeToolTip": "sociosphere\\Models\\userreg.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T05:45:42.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "userregController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Controllers\\userregController.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Controllers\\userregController.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Controllers\\userregController.cs",
+              "RelativeToolTip": "sociosphere\\Controllers\\userregController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAuwEoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T15:17:17.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\userreg\\Login.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\userreg\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\userreg\\Login.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\userreg\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T05:27:25.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\userreg\\Register.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\userreg\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\userreg\\Register.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\userreg\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T06:30:41.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReportGenerate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\ReportGenerate.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\Admin\\ReportGenerate.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\ReportGenerate.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\Admin\\ReportGenerate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T04:23:35.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddBill.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\AddBill.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\Admin\\AddBill.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\AddBill.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\Admin\\AddBill.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-25T13:58:53.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "addcomplaint.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\User\\addcomplaint.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\User\\addcomplaint.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\User\\addcomplaint.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\User\\addcomplaint.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T19:27:04.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ConfigurationSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\ConfigurationSettings.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Models\\ConfigurationSettings.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\ConfigurationSettings.cs",
+              "RelativeToolTip": "sociosphere\\Models\\ConfigurationSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T18:55:29.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "alloteflat.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\alloteflat.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Models\\alloteflat.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\alloteflat.cs",
+              "RelativeToolTip": "sociosphere\\Models\\alloteflat.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA1wBYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T09:08:37.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "sociosphere\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBoAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T07:39:30.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "userregphoto.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\userregphoto.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Models\\userregphoto.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\userregphoto.cs",
+              "RelativeToolTip": "sociosphere\\Models\\userregphoto.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T06:04:58.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GateManController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Controllers\\GateManController.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Controllers\\GateManController.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Controllers\\GateManController.cs",
+              "RelativeToolTip": "sociosphere\\Controllers\\GateManController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAkwD4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T20:58:30.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ViewAnnouncements.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\ViewAnnouncements.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\Admin\\ViewAnnouncements.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\ViewAnnouncements.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\Admin\\ViewAnnouncements.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T20:02:52.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AlloteFlat.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\AlloteFlat.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\Admin\\AlloteFlat.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\AlloteFlat.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\Admin\\AlloteFlat.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T09:53:13.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AddVisitor.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\GateMan\\AddVisitor.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\GateMan\\AddVisitor.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\GateMan\\AddVisitor.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\GateMan\\AddVisitor.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T20:59:40.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ViewVisitors.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\GateMan\\ViewVisitors.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\GateMan\\ViewVisitors.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\GateMan\\ViewVisitors.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\GateMan\\ViewVisitors.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAIBJwB4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T21:11:47.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ViewVisitors.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\User\\ViewVisitors.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\User\\ViewVisitors.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\User\\ViewVisitors.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\User\\ViewVisitors.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T21:34:33.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ViewAnnouncements.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\User\\ViewAnnouncements.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\User\\ViewAnnouncements.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\User\\ViewAnnouncements.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\User\\ViewAnnouncements.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T20:06:34.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AddAnnouncement.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\AddAnnouncement.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\Admin\\AddAnnouncement.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\AddAnnouncement.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\Admin\\AddAnnouncement.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T20:01:50.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "announcement.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\announcement.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Models\\announcement.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\announcement.cs",
+              "RelativeToolTip": "sociosphere\\Models\\announcement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T19:57:33.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AnnouncementViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\AnnouncementViewModel.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Models\\AnnouncementViewModel.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\AnnouncementViewModel.cs",
+              "RelativeToolTip": "sociosphere\\Models\\AnnouncementViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T19:58:38.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ViewComplaints.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\ViewComplaints.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\Admin\\ViewComplaints.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\ViewComplaints.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\Admin\\ViewComplaints.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T18:29:53.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "addflat.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\addflat.cs",
+              "RelativeDocumentMoniker": "sociosphere\\Models\\addflat.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Models\\addflat.cs",
+              "RelativeToolTip": "sociosphere\\Models\\addflat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T07:32:09.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AddFlat.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\AddFlat.cshtml",
+              "RelativeDocumentMoniker": "sociosphere\\Views\\Admin\\AddFlat.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\sociosphere\\sociosphere\\sociosphere\\sociosphere\\Views\\Admin\\AddFlat.cshtml",
+              "RelativeToolTip": "sociosphere\\Views\\Admin\\AddFlat.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T07:35:49.061Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

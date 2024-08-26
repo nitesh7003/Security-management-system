@@ -1,0 +1,40 @@
+﻿@model IEnumerable<sociosphere.Models.billmanagement>
+
+@{
+    ViewData["Title"] = "Report Results";
+}
+
+<div class="container mt-4">
+    <h5 class="mb-4">Report Results</h5>
+
+    <form asp-action="ExportReportToCSV" method="post">
+        <input type="hidden" name="reportType" value="Bill" />
+        <button type="submit" class="btn btn-secondary mb-3">Export to CSV</button>
+    </form>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Bill Title</th>
+                <th>Flat Number</th>
+                <th>Bill Amount</th>
+                <th>Month</th>
+                <th>Paid Date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var bill in Model)
+            {
+                <tr>
+                    <td>@bill.Title</td>
+                    <td>@bill.FlatNo</td>
+                    <td>@bill.AmountPay.ToString("C")</td>
+                    <td>@bill.Month.ToString("MMMM yyyy")</td>
+                    <td>@bill.BillSbmtDate?.ToString("dd-MM-yyyy")</td>
+                    <td>@bill.PaidStatus</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

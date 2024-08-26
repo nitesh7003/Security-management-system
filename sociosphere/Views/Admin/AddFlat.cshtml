@@ -1,0 +1,38 @@
+﻿@model sociosphere.Models.addflat
+
+@{
+    ViewData["Title"] = "Add Flat";
+}
+
+<h2>Add Flat</h2>
+
+<form asp-action="AddFlat" method="post">
+    <div class="form-group">
+        <label asp-for="flatno" class="control-label"></label>
+        <input asp-for="flatno" class="form-control" />
+        <span asp-validation-for="flatno" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="floorno" class="control-label"></label>
+        <input asp-for="floorno" class="form-control" />
+        <span asp-validation-for="floorno" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="wingname" class="control-label"></label>
+        <input asp-for="wingname" class="form-control" />
+        <span asp-validation-for="wingname" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="flattype" class="control-label"></label>
+        <select asp-for="flattype" class="form-control">
+            <option>Select Type</option>
+            <option value="1 BHK">1 BHK</option>
+            <option value="2 BHK">2 BHK</option>
+            <option value="3 BHK">3 BHK</option>
+        </select>
+        <span asp-validation-for="flattype" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Add Flat" class="btn btn-primary" />
+    </div>
+</form>

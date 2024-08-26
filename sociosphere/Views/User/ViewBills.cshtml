@@ -1,0 +1,119 @@
+﻿@model IEnumerable<sociosphere.Models.billmanagement>
+
+<h2>Your Bills</h2>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Amount to Pay</th>
+                <th>Month</th>
+                <th>Status</th>
+                <th>Bill Release Date</th>
+                <th>Submission Date</th>
+                <th>Pay Bill</th> <!-- New Column -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var bill in Model)
+            {
+                <tr>
+                    <td>@bill.Title</td>
+                    <td>@bill.AmountPay.ToString("C")</td>
+                    <td>@bill.Month.ToString("MMMM yyyy")</td>
+                    <td>@bill.PaidStatus</td>
+                    <td>@bill.BillReleaseDt.ToString("dd-MM-yyyy")</td>
+                    <td>@bill.BillSbmtDate?.ToString("dd-MM-yyyy") </td>
+                    <td>
+                        @if (bill.PaidStatus == "Pending")
+                        {
+                            <form action="@Url.Action("PayBill", "User")" method="post">
+                                <input type="hidden" name="billId" value="@bill.Id" />
+                                <button type="submit" class="btn btn-primary">Pay Now</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <span>Paid</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No bills found for your flat.</p>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* @model IEnumerable<sociosphere.Models.billmanagement>
+
+<h2>Your Bills</h2>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Amount to Pay</th>
+                <th>Month</th>
+                <th>Status</th>
+                <th>Bill Release Date</th>
+                <th>Submission Date</th>
+                <th>Pay Bill</th> <!-- New Column -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var bill in Model)
+            {
+                <tr>
+                    <td>@bill.Title</td>
+                    <td>@bill.AmountPay.ToString("C")</td>
+                    <td>@bill.Month.ToString("MMMM yyyy")</td>
+                    <td>@bill.PaidStatus</td>
+                    <td>@bill.BillReleaseDt.ToString("dd-MM-yyyy")</td>
+                    <td>@bill.BillSbmtDate?.ToString("dd-MM-yyyy") </td>
+                    <td>
+                        
+                        @if (bill.PaidStatus == "Pending")
+                        {
+                            <form asp-action="CompletePayment" asp-controller="User" method="post">
+                                <input type="hidden" name="billId" value="@bill.Id" />
+                                <button type="submit" class="btn btn-success">Pay Now</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <span>Paid</span>
+                        }
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No bills found for your flat.</p>
+}
+ *@

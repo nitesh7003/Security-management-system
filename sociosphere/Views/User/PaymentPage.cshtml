@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Pay Bill";
+}
+
+<form id="paymentForm" action="@Url.Action("PaymentSuccess", "User")" method="post">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"
+            data-key="rzp_test_Kl7588Yie2yJTV"
+            data-amount="@((int)(ViewBag.Amount * 100))" <!-- Amount in paise -->
+            data-currency="INR"
+            data-order_id="@ViewBag.OrderId"
+            data-buttontext="Pay with Razorpay"
+            data-name="SocioSphere"
+            data-description="Bill Payment"
+            data-image="/your_logo.png"
+            data-prefill.name="@User.Identity.Name"
+            data-prefill.email="@Context.Session.GetString("Email")"
+            data-theme.color="#F37254"></script>
+    <input type="hidden" name="billId" value="@ViewBag.BillId" />
+    <input type="hidden" value="Hidden Element" name="hidden">
+</form>
